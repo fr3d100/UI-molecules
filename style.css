@@ -11,6 +11,48 @@ lead{
   font-size: 1.2em;
 }
 
+
+/* ******************************* */
+/*         SECTIONS                */
+/* ******************************* */
+
+.section-img img{
+  width: 100%;
+}
+
+.section-text{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+/* ******************************* */
+/*         SEARCHBAR               */
+/* ******************************* */
+
+.event-search{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  border : solid 1px #1a1a1a;
+}
+
+.event-search-category{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  flex-wrap: wrap;
+}
+
+.event-search-submit{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+
 /* ******************************* */
 /*         EVENTS      */
 /* ******************************* */

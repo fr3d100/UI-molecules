@@ -11,22 +11,315 @@
 
 <div class="container m-3">
 	<div class="row">
-		<div class="col-sm-8">
-			<h1>All the components</h1>
+		<div class="col-sm-8 offset-sm-2 mb-3">
+			<h1>Welcome to my eventbrite UI Kit</h1>
 		</div>
-		<div class="col-sm-8">
-			<ul>
-				<li><a href="navbar.html">Navbar</a></li>
-				<li><a href="comment.html">Comment</a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-			</ul>
+	</div>
+	
+	<div class="row">
+		<div class="col-sm-8 mb-3">
+			<h3>Navbar</h3>
 		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 mb-3">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			  <a class="navbar-brand" href="#">Eventbrite</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarColor01">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">All events <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Create an event</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Users</a>
+			      </li>
+			    </ul>
+			    <div class="dropdown show">
+			      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        <i class="fas fa-user-circle"></i>My account
+			      </a>
+
+			      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			        <a class="dropdown-item" href="#">My profile</a>
+			        <a class="dropdown-item" href="#">My events</a>
+			        <a class="dropdown-item" href="#">Log Out</a>
+			      </div>
+			</div>
+			  </div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8 mb-3">
+			<h3>Footer</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<p><a href="./footer.html" target="_blank" class="text-info">See full example here</a></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-8 mb-3">
+			<h3>Forms</h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-12 mb-3">
+			<h5>Login</h5>
+			<p><a href="./log-in.html" target="_blank" class="text-info">See here</a></p>
+		</div>
+		<div class="col-sm-12 mb-3">
+			<h5>Sign up</h5>
+			<p><a href="./signup.html" target="_blank" class="text-info">See here</a></p>
+		</div>
+		<div class="col-xs-12 col-sm-6 mb-3">
+		<h5>Example</h5>
+    <form>
+      <div class="form-label-group">
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputEmail">Email address</label>
+      </div>
+
+      <div class="form-label-group">
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="inputPassword">Password</label>
+      </div>
+
+      <div class="custom-control custom-checkbox mb-3">
+        <input type="checkbox" class="custom-control-input" id="customCheck1">
+        <label class="custom-control-label" for="customCheck1">Remember password</label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+      <div class="text-center d-flex justify-content-between">
+        <a class="small" href="#" data-toggle="modal" data-target="#f-password">Forgot password ?</a>
+        <a class="small" href="./signup.html">No account?</a>
+      </div>
+    </form>
+   </div>
+ 	</div>
+
+ 	<div class="row">
+		<div class="col-sm-8 mb-3">
+			<h3>Banners</h3>
+			<h4>Big banners</h4>
+			<p><a href="./banner.html" target="_blank" class="text-info">See full example here</a></p>
+		</div>
+	</div>
+</div>
+
+		<header>
+			<div class="overlay"></div>
+		  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		    <source src="./img/party-video.mp4" type="video/mp4">
+		  </video>
+		  <div class="container h-100">
+		    <div class="d-flex h-100 text-center align-items-center">
+		      <div class="w-100 text-white">
+		        <h1 class="display-3">EventBrite</h1>
+		        <p class="lead mb-0">The best place to find the next event you will attend to !</p>
+		      </div>
+		    </div>
+		  </div>
+		</header>
+
+<div class="container m-3">
+	<div class="row mt-3">
+		<div class="col-sm-8 mb-3">
+			<h4>Small banners</h4>
+			<p><a href="./mini-banner.html" target="_blank" class="text-info">See full example here</a></p>
+		</div>
+	</div>
+</div>
+		<header class="mini">
+			<div class="overlay"></div>
+		   <img src="./img/speech.jpg">
+		  <div class="container h-100">
+		    <div class="d-flex h-100 text-center align-items-center">
+		      <div class="w-100 text-white">
+		        <h1 class="display-3">EventBrite</h1>
+		        <p class="lead mb-0">The best place to find the next event you will attend to !</p>
+		      </div>
+		    </div>
+		  </div>
+		</header>
+	<div class="container m-3">
+		<div class="row">
+			<div class="col-sm-8 mb-3">
+				<h3>Cards</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 mb-3">
+				<h4>Event card</h4>
+				<div class="card mt-3">
+				  <h3 class="card-header text-primary">Guinness festival</h3>
+				  <img class="image-card" src="http://allaboutbeer.com/wp-content/uploads/2016/06/Guinness-Stout.jpg" alt="Card image">
+				  <div class="card-body">
+				    <h5 class="card-title">Special discount for you</h5>
+				    <h6 class="card-subtitle text-muted">1 beer for free with the ticket</h6>
+				    <p class="card-text">Come see the biggest beer festival in Europe from the traditional and tasty original Guinness® beer.</p>
+				  </div>
+				  <ul class="list-group list-group-flush">
+				    <li class="list-group-item"><i class="fas fa-money-check"></i> 25 euros</li>
+				    <li class="list-group-item"><i class="fas fa-map-marker-alt"></i>  Dublin</li>
+				    <li class="list-group-item"><i class="far fa-calendar-alt"></i> July, 3rd</li>
+				  </ul>
+				  <div class="card-body">
+				    <a href="#" class="card-link text-info">See more</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-3 mb-3">
+				<h4>User card</h4>
+		    <div class="card border-0 shadow">
+		      <img src="./img/user.jpeg" class="card-img-top" alt="...">
+		      <div class="card-body text-center">
+		        <h5 class="card-title mb-0">John Doe</h5>
+		        <div class="card-text text-black-50">Web Developer</div>
+		      </div>
+		    </div>
+		  </div>
+		 </div>
+		
+		<div class="row">
+		  <div class="col-sm-6 mb-3">
+				<h4>Standard card</h4>
+				<div class="card">
+				  <div class="card-body">
+				    <h4 class="card-title">Card title</h4>
+				    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="card-link">Card link</a>
+				    <a href="#" class="card-link">Another link</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8 mb-3">
+				<p><a href="./cards.html" target="_blank" class="text-info">See full Cards examples here</a></p>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-sm-8 mb-3">
+				<h3>Comments</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-8">
+				<h4>Comment example</h4>
+			</div>
+		</div>
+			<div class="row">
+				<div class="card d-flex flex-row col-sm-8">
+					<div class="col-sm-2 d-flex">
+						<img src="https://api.adorable.io/avatars/100/abott@adorable.png" alt="" style="margin: auto;" >
+					</div>
+					<div class="col-sm-8 d-flex justify-content-center">
+					 <div class="card-body">
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <small>Posted on July, 3rd 2018 at 08:56 by <a href="#" class="card-link text-info">John Doe</a></small>
+					  </div>
+				  </div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-8 mt-3">
+				<h4>New comment</h4>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="col-sm-8 row">
+				<div class="card d-flex flex-row mt-3 p-3 col-sm-8">
+					<form>
+						 <div class="form-group col-sm-8" style="max-width: 50em">
+				      <label for="exampleTextarea">Add your comment</label>
+				      <textarea style="width: 100%" class="form-control" id="exampleTextarea" rows="3"></textarea>
+				    </div>
+				    <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mb-3">
+			<div class="col-sm-8 ">
+				<h3>Event page</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><a href="./event.html" target="_blank" class="text-info">See full example here</a></p>
+			</div>
+		</div>
+
+		<div class="row mb-3">
+			<div class="col-sm-8 ">
+				<h3>Search organism (My own organism)</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p><a href="./search.html" target="_blank" class="text-info">See full example here</a></p>
+			</div>
+		</div>
+
 	</div>
 
 </div>
 
-</body>
+<!-- 		<footer id="myFooter">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-sm-4 myCols">
+		                <h5>EventBrite</h5>
+		                <ul>
+		                    <li><a href="#">Company Information</a></li>
+		                    <li><a href="#">Contact us</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-sm-4 myCols">
+		                <h5>Support</h5>
+		                <ul>
+		                    <li><a href="#">FAQ</a></li>
+		                    <li><a href="#">Help desk</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-sm-4 myCols">
+		                <h5>Legal</h5>
+		                <ul>
+		                    <li><a href="#">Terms of Use</a></li>
+		                    <li><a href="#">Privacy Policy</a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="social-networks">
+		        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+		        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+		        <a href="#" class="google"><i class="fab fa-google-plus"></i></a>
+		    </div>
+		    <div class="footer-copyright">
+		        <p>© 2019 Eventbrite Copyright </p>
+		    </div>
+		</footer> -->
+	</body>
 </html>
