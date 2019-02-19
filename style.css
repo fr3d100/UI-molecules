@@ -4,9 +4,16 @@
 
 
 /* ******************************* */
+/*             GENERAL             */
+/* ******************************* */
+lead{
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+/* ******************************* */
 /*         EVENTS      */
 /* ******************************* */
-/*
 
 /* event header molecule*/
 
@@ -86,8 +93,6 @@
   justify-content: flex-end;
 }
 
-
-
 .event-subheader-status{
   font-size: 10px;
   text-transform: uppercase;
@@ -96,7 +101,25 @@
   font-weight: 600;
 }
 
+/* event content molecule*/
 
+.event-content-info li {
+  list-style: none;
+}
+
+.event-content-info li:first-child {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #1a1a1a;;
+}
+
+.event-content-share{
+  font-size: 2em;
+}
+
+.event-content-share i {
+  padding-right: 1em;
+}
 
 /* ******************************* */
 /*         CARDS      */
