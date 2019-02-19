@@ -16,7 +16,7 @@
 
 		  <div class="collapse navbar-collapse" id="navbarColor01">
 		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
+		      <li class="nav-item ">
 		        <a class="nav-link" href="#">All events <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
@@ -39,73 +39,85 @@
 			</div>
 		  </div>
 		</nav>
-		<!-- HEADER -->
-		<header>
+
+
+		<!-- BANNER MINI -->
+		<header class="mini">
 			<div class="overlay"></div>
-		  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-		    <source src="./img/party-video.mp4" type="video/mp4">
-		  </video>
+		   <img src="./img/guinness-banner.jpg">
 		  <div class="container h-100">
 		    <div class="d-flex h-100 text-center align-items-center">
 		      <div class="w-100 text-white">
-		        <h1 class="display-3">EventBrite</h1>
-		        <p class="lead mb-0">The best place to find the next event you will attend to !</p>
+		        <h1 class="display-3">Guinness Festival 2019</h1>
 		      </div>
 		    </div>
 		  </div>
 		</header>
 
-		<!-- SEARCH BOX -->
-		<div class="container m-3">
-			<div class="row">
-				<div class="col-sm-8">
-					<h1>Looking for an event ?</h1>
+		<!-- EVENT CONTENT -->
+				<div class="container">
+			<div class="event-header row m-3">
+				<div class="event-header-image col-sm-8">
+					<img src="http://allaboutbeer.com/wp-content/uploads/2016/06/Guinness-Stout.jpg" alt="Event pic">
+				</div>
+				<div class="event-header-info col-sm-4">
+					<div class="event-header-date"><span class="day">25</span> June</div>
+					<div class="event-header-name">Guinness Festival 2019</div>
+					<div class="event-header-admin"><a href="https://www.guinness.com"><small>par</small> Guinness™ </a></div>
+					<div class="event-header-price">25 <span class="currency">€</span></div>
 				</div>
 			</div>
-			<div class="row event-search">
-				<div class="col-sm-4 p-3">
-					<h3>City</h3>
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="City ..." id="inputDefault">
+			<div class="event-subheader row m-3">
+				<div class="event-subheader-icons col-sm-3">
+					<i class="fas fa-bullhorn"></i>
+					<i class="fas fa-heart text-danger"></i>
+				</div>
+				<div class="event-subheader-data col-sm-9">
+					<div class="event-subheader-status text-warning" >Out of order</div>
+					<button type="button" class="btn btn-outline-info btn-sm">More info</button>
+				</div>
+			</div>
+			<div class="event-content row m-3">
+				<div class="event-description col-sm-8 pr-3 pl-3">
+					<p><lead>The Guinness Festival is one of the most famous beer festival in Europe.</lead></p>
+					<p>
+						Nec piget dicere avide magis hanc insulam populum Romanum invasisse quam iuste. Ptolomaeo enim rege foederato nobis et socio ob aerarii nostri angustias iusso sine ulla culpa proscribi ideoque hausto veneno voluntaria morte deleto et tributaria facta est et velut hostiles eius exuviae classi inpositae in urbem advectae sunt per Catonem, nunc repetetur ordo gestorum.
+					</p><p>
+						Nec piget dicere avide magis hanc insulam populum Romanum invasisse quam iuste. Ptolomaeo enim rege foederato nobis et socio ob aerarii nostri angustias iusso sine ulla culpa proscribi ideoque hausto veneno voluntaria morte deleto et tributaria facta est et velut hostiles eius exuviae classi inpositae in urbem advectae sunt per Catonem, nunc repetetur ordo gestorum.
+					</p><p>
+						Nec piget dicere avide magis hanc insulam populum Romanum invasisse quam iuste. Ptolomaeo enim rege foederato nobis et socio ob aerarii nostri angustias iusso sine ulla culpa proscribi ideoque hausto veneno voluntaria morte deleto et tributaria facta est et velut hostiles eius exuviae classi inpositae in urbem advectae sunt per Catonem, nunc repetetur ordo gestorum.
+					</p>
+				</div>
+				<div class="event-content-info col-sm-4 pl-5">
+					<div class="event-content-time">
+						<h3>Date & Time</h3>
+						<p>
+							<ul>
+								<li>Thursday 25 June</li>
+								<li>8:30 pm </li>
+								<li><a href="" class="text-info">Add to calendar</a></li>
+							</ul>
+						</p>
 					</div>
-				</div>
-				<div class="col-sm-4 p-3">
-					<h3>Category</h3>
-					  <div class="form-group event-search-category">
-					    <div class="custom-control custom-checkbox">
-					      <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
-					      <label class="custom-control-label" for="customCheck1">Party</label>
-					    </div>
-					    <div class="custom-control custom-checkbox">
-					      <input type="checkbox" class="custom-control-input" id="customCheck2" checked="">
-					      <label class="custom-control-label" for="customCheck2">Business</label>
-					    </div>
-					    <div class="custom-control custom-checkbox">
-					      <input type="checkbox" class="custom-control-input" id="customCheck3" checked="">
-					      <label class="custom-control-label" for="customCheck3">Lifestyle</label>
-					    </div>
-					  </div>
-				</div>
-				<div class="col-sm-4 p-3 event-search-submit">
-					<button type="button" class="btn btn-success">Search</button>
-				</div>
-			</div>
-		</div>
-		<!-- LAST EVENTS -->
-		<div class="container m-3">
-			<div class="row">
-				<div class="col-sm-8">
-					<h1>Latest event</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 col-md-6 section-img p-2">
-					<img src="https://brobible.files.wordpress.com/2017/12/shutterstock_606447173.jpg?quality=90&w=650" alt="">
-				</div>
-				<div class="col-sm-12 col-md-6 section-text">
-					<h2>Guinness Festival</h2>
-					<p>This is the best beer festival in Europe. You must attend to it</p>
-					<a href="./event-example.html" class="text-info">See more</a>
+					<div class="event-content-place">
+						<h3>Address</h3>
+						<p>
+							<ul>
+								<li> Guinness Store</li>
+								<li> XYZ Dublin </li>
+								<li> Ireland </li>
+								<li><a href="" class="text-info">Show maps</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="event-content-share">
+						<h3>Share</h3>
+							<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+			        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+			        <a href="#" class="google"><i class="fab fa-google-plus"></i></a>
+						<p>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -123,6 +135,11 @@
 		    </div>
 		  </div>
 		</header>
+
+
+
+
+
 
 		<!-- FOOTER -->
 		<footer id="myFooter">

@@ -6,6 +6,11 @@
 /* ******************************* */
 /*             GENERAL             */
 /* ******************************* */
+body {
+  position: relative;
+  padding-bottom : 20em;
+}
+
 lead{
   font-weight: 600;
   font-size: 1.2em;
@@ -347,14 +352,14 @@ header .overlay {
 /* ******************************* */
 
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color:  #1a1a1a;
   color: white;
   text-align: center;
-  Flex
+  height: 20em;
 }
 
 #myFooter {
