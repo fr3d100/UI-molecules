@@ -3,7 +3,7 @@ Bienvenue sur mon super Eventbrite UI Kit !
 
 ## UI Kit
 * Cloner le repo et ouvrir le fichier "sections.html"
-* Version [en production](https://www.bonnand.co/eventbrite/ui-kit)
+* Version [en production](https://www.bonnand.co/eventbrite/sections.html)
 
 
 ## Pages type
